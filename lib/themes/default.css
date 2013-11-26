@@ -18,6 +18,7 @@
  */
 .picker__input {
   cursor: default;
+  width:98%;
 }
 /**
  * When the picker is opened, the input element is “activated”.

@@ -206,14 +206,18 @@
 }
 .picker__button--today,
 .picker__button--clear {
-  border: 1px solid #ffffff;
+  border: none;
   background: #ffffff;
   font-size: .8em;
   padding: .66em 0;
   font-weight: bold;
-  width: 50%;
+  width: 48%;
   display: inline-block;
   vertical-align: bottom;
+  float:none!important;
+}
+.picker__button--clear {
+	
 }
 .picker__button--today:hover,
 .picker__button--clear:hover {
